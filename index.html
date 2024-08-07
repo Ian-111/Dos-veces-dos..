@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 Dos veces dos 🌸</title>
+    <style>
+        .body {
+            background-color: lightcoral;
+            text-align: center;
+        }
+
+        .body__title {
+            color:beige
+
+        }
+
+        .body__img {
+            width: 30%;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <h1 class="body__title"> 🐄 Chiari ¿Y si nos conocemos de nuevo?🐄  </h1>
+    <img src="https://i.pinimg.com/564x/3e/a5/6e/3ea56eac50adbbcdfabd105e8bac9f6d.jpg" 
+    alt="luna y sol" class="body__img"/> 
+    <button id="yes">⋆ Un placer conocerte ⋆</button>
+    <button id="no">࿈ No quiero, rapta todas las vacas y llevalas a Marte ࿈</button>
+
+    <script>
+        const vutonSi = document.getElementById('yes');
+        const vutonNo = document.getElementById('no');
+
+        const puntoyaparte = () => {
+            alert ('🌍🐮 Hola, salvaste a las vacas del planeta tierra 🐮🌍');
+            alert ('⏱︎ CREANDO UN NUEVO CAMINO ▶︎⏭︎⏱︎');
+            alert ('¿Acaso te conocí en mi vida pasada?');
+            alert ('⌛ Soy Carol y tu Chiara, un gusto encontrarnos ⌛');
+            location.href = 'https://www.youtube.com/watch?v=yh39zaFM0VA'
+        }
+
+        const ruru = () => {
+            alert ('Fue un placer coincidir contigo')
+            alert ('Lo entiendo, buena suerte Ruru, deseo que seas muy muy feliz ❤')
+            location.href = 'https://youtu.be/QtvPspAt60g'
+        }
+
+        vutonSi.addEventListener('click', puntoyaparte);
+        vutonNo.addEventListener('click', ruru);
+    </script>
+</body>
+</html>
